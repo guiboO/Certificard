@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(57,222,210);
+    background: linear-gradient(321deg, rgba(57,222,210,1) 0%, rgba(75,187,224,1) 10%, rgba(17,37,131,1) 62%);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container {
+    background: #F7F7F7;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 15px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3, h4 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-size: 15px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    padding: 3px 8px;
+    background: rgb(17,37,131);
+    background: linear-gradient(321deg, rgba(17,37,131,1) 0%, rgba(57,222,210,1) 42%, rgba(75,187,224,1) 100%);
+    border-radius: 24px;
+    border-width: .1px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    cursor: pointer;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background: solid;
+    background: rgb(17,37,131);
+    background: linear-gradient(321deg, rgba(17,37,131,1) 0%, rgba(57,222,210,1) 42%, rgba(75,187,224,1) 100%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos li {
+    list-style: none;
+    font-weight: 900;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.projetos h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.projeto-lista {
+    margin-top: 15px;
+    color: rgb(17,37,131);
+}
+
+.projeto-titulo {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.projeto-item {
+    padding-right: 40px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px; 
+}
+
+.contato h2 {
+    border: solid;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(84, 9, 155);
+    padding-inline: 50px;
+}
+
+.contato img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.links-logo img:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #18182e 27.26%, #00061b 96.03%);
+}
+.dark .container {
+    background: #292929;
+    color:#FFF;
+    box-shadow: 4px 4px 7px #0f0f10;
+}
+
+.dark .projetos {
+    background: #383838;
+    box-shadow: 4px 4px 7px #0f0f10;
+}
+
+.dark .tema button{
+    background: #292929;
+    box-shadow: 4px 4px 7px #0f0f10;
+    color:#FFF;
+    font-weight: 400;
+}
+
+.dark .projetos h2, .dark .projeto-titulo {
+    color:#FFF;
+}
+
+.dark .contato, .dark .conquistas {
+    background: #292929;
+    color: #FFF;
+}
+
+.dark h2 {
+    border-color: #414141;
+    color: #FFF;
+}
